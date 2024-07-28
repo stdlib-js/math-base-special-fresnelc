@@ -65,7 +65,7 @@ Some sources define C(x) using t<sup>2</sup> for the argument of the cosine. To 
 ## Usage
 
 ```javascript
-import fresnelc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnelc@deno/mod.js';
+import fresnelc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnelc@v0.3.0-deno/mod.js';
 ```
 
 #### fresnelc( x )
@@ -101,7 +101,7 @@ v = fresnelc( NaN );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import fresnelc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnelc@deno/mod.js';
+import fresnelc from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fresnelc@v0.3.0-deno/mod.js';
 
 var x = linspace( 0.0, 10.0, 100 );
 
